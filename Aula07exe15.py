@@ -1,0 +1,5 @@
+dias = float(input('Digite a qtde de dias utilizados: '))
+km = float(input('Digite a qtde de kms rodados: '))
+valor = (dias * 60) + (km * 0.15)
+print('Qtde de dias utilizados {:.2f}, Qtde de kms rodados {:.2f}'.format(dias, km))
+print('Valor total da sua locação é de R$ {:.2f}'.format(valor))
